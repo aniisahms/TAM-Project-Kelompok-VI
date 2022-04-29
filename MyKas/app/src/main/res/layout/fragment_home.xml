@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".HomeFragment">
+
+    <Button
+        android:id="@+id/btn_tampilkan_catatan"
+        android:layout_width="300dp"
+        android:layout_height="130dp"
+        android:layout_margin="20dp"
+        android:text="CATATAN KEUANGAN"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:drawableLeft="@drawable/note"
+        android:padding="20dp"
+        android:background="@drawable/custom_button"
+        />
+
+    <Button
+        android:id="@+id/btn_tambah_catatan"
+        android:layout_width="300dp"
+        android:layout_height="130dp"
+        android:layout_margin="20dp"
+        android:text="TAMBAH CATATAN \nKEUANGAN"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:drawableLeft="@drawable/note_add"
+        android:padding="20dp"
+        android:background="@drawable/custom_button"
+        />
+
+    <Button
+        android:id="@+id/btn_laporan"
+        android:layout_width="300dp"
+        android:layout_height="130dp"
+        android:layout_margin="20dp"
+        android:text="LAPORAN KEUANGAN"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:drawableLeft="@drawable/laporan"
+        android:padding="20dp"
+        android:background="@drawable/custom_button"
+        />
+</LinearLayout>

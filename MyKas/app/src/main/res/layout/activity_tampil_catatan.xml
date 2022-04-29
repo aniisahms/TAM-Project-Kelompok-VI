@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".TambahCatatanActivity">
+
+    <Button
+        android:id="@+id/datePickerButton1"
+        style="@android:style/Widget.Material.Spinner.Underlined"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_centerHorizontal="true"
+        android:text="Semua catatan"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/blue3"
+        android:textSize="16sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/datePickerButton1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="70dp" />
+
+    <Button
+        android:id="@+id/btn_tambah_catatan_baru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recyclerview"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="-60dp"
+        android:text="Tambah baru"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
