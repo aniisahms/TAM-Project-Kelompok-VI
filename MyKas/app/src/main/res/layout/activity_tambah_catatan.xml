@@ -19,7 +19,7 @@
         android:textAllCaps="false"
         android:textSize="16sp"
         android:textColor="@color/blue3"
-        android:onClick="openDatePicker"
+        android:onClick="showDate"
         />
 
     <TableLayout
@@ -112,7 +112,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:inputType="text"
+                android:inputType="numberDecimal"
                 android:textColorHint="@color/blue_grey_pastel"
                 android:layout_weight="1"
                 />
