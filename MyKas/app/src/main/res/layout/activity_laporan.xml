@@ -18,30 +18,20 @@
 <!--        android:layout_gravity="center"-->
 <!--        android:layout_marginBottom="30dp"-->
 <!--        />-->
-    <Button
-        android:id="@+id/datePickerButton"
-        android:layout_width="300dp"
-        android:layout_height="65dp"
+    <Spinner
+        android:id="@+id/rentang_waktu_laporan_spinner"
         style="@android:style/Widget.Material.Spinner.Underlined"
-        android:text="Pilih tanggal"
-        android:textAlignment="center"
-        android:textAllCaps="false"
-        android:textSize="16sp"
-        android:textColor="@color/blue3"
-        android:onClick="openDatePicker"
-        />
-
-    <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="(rentang waktu)"
+        android:layout_margin="10dp"
         android:layout_gravity="center"
-        android:textSize="16sp"
-        android:layout_marginBottom="30dp"/>
+        android:textAlignment="center"
+        />
 
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp">
 
