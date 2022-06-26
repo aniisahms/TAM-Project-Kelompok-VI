@@ -8,4 +8,26 @@
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="mykas">MyKas</string>
+
+    <string-array name="tipe">
+        <item>pengeluaran</item>
+        <item>pemasukan</item>
+    </string-array>
+
+    <string-array name="kategori">
+        <item>belanja umum</item>
+        <item>makanan</item>
+        <item>pulsa</item>
+        <item>tagihan listrik</item>
+        <item>tagihan PDAM</item>
+        <item>transportasi</item>
+        <item>lainnya</item>
+    </string-array>
+
+    <string-array name="rentang_waktu_tampil_catatan">
+        <item>semua</item>
+        <item>mingguan</item>
+        <item>bulanan</item>
+        <item>tahunan</item>
+    </string-array>
 </resources>
