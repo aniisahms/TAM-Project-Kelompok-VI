@@ -7,23 +7,21 @@
     android:padding="10dp"
     tools:context=".TambahCatatanActivity">
 
-    <Button
-        android:id="@+id/datePickerButton1"
+    <Spinner
+        android:id="@+id/rentang_tampil_cat_spinner"
         style="@android:style/Widget.Material.Spinner.Underlined"
-        android:layout_width="300dp"
-        android:layout_height="65dp"
-        android:layout_centerHorizontal="true"
-        android:text="Semua catatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
         android:textAlignment="center"
-        android:textAllCaps="false"
-        android:textColor="@color/blue3"
-        android:textSize="16sp" />
+        />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/datePickerButton1"
+        android:layout_below="@+id/rentang_tampil_cat_spinner"
         android:layout_centerInParent="true"
         android:layout_marginTop="5dp"
         android:layout_marginBottom="70dp" />
