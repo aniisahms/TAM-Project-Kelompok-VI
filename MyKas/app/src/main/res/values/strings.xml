@@ -30,4 +30,11 @@
         <item>bulanan</item>
         <item>tahunan</item>
     </string-array>
+
+    <string-array name="rentang_waktu_laporan">
+        <item>semua</item>
+        <item>setahun terakhir</item>
+        <item>30 hari terakhir</item>
+        <item>7 hari terakhir</item>
+    </string-array>
 </resources>
