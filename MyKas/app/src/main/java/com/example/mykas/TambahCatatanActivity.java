@@ -18,6 +18,7 @@ public class TambahCatatanActivity extends AppCompatActivity implements AdapterV
     private DatePickerDialog datePickerDialog;
     private Button dateButton, simpanCatatan;
     private Spinner tipeSpinner, kategoriSpinner;
+    DBHelper DB;
     //String[] tipe, kategori;
 
     @Override
@@ -34,6 +35,8 @@ public class TambahCatatanActivity extends AppCompatActivity implements AdapterV
         tipeSpinner = findViewById(R.id.tipe_spinner);
         kategoriSpinner = findViewById(R.id.kategori_spinner);
 
+        simpanCatatan = findViewById(R.id.btn_simpan_catatan);
+
         // Tipe spinner
         ArrayAdapter<CharSequence> adapterTipe = ArrayAdapter.createFromResource(this, R.array.tipe, android.R.layout.simple_spinner_item);
         adapterTipe.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -45,6 +48,16 @@ public class TambahCatatanActivity extends AppCompatActivity implements AdapterV
         adapterKategori.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         kategoriSpinner.setAdapter(adapterKategori);
         kategoriSpinner.setOnItemSelectedListener(this);
+
+        // DATABASE
+//        DB = new DBHelper(this);
+//
+//        simpanCatatan.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//
+//            }
+//        });
     }
 
 
